@@ -1,0 +1,5 @@
+.todo-item.completed .todo-title,
+.todo-item.completed .todo-description,
+.todo-item.completed .todo-date {
+  text-decoration: line-through;
+}

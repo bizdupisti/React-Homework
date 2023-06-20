@@ -1,0 +1,24 @@
+.todo-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .todo-list li input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .todo-list li button {
+    margin-left: auto;
+    background-color: #f44336;
+  }
+  
+  .todo-list li button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .todo-list li span {
+    flex-grow: 1;
+    text-decoration: none;
+  }
+  
